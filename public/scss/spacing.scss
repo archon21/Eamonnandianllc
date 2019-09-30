@@ -1,0 +1,21 @@
+@for $i from 0 to 20 {
+  $value: $i * 5;
+  .p-#{$value}px {
+    padding: $value + px!important;
+  }
+  .m-#{$value}px {
+    margin: $value  + px!important;
+  }
+  .mx-#{$value}px {
+    margin: 0 $value + px;
+  }
+  .px-#{$value}px {
+    padding: 0 $value + px;
+  }
+  .my-#{$value}px {
+    margin: $value + px 0;
+  }
+  .py-#{$value}px {
+    padding: $value + px 0;
+  }
+}

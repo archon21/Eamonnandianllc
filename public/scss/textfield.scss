@@ -1,0 +1,86 @@
+@import './color.scss';
+
+.num-input {
+  border-radius: 5px;
+  border: 1px solid #333;
+  height: 75px;
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Oxygen, sans-serif;
+}
+
+.num-input:focus {
+  outline: none;
+}
+
+.textfield-wrapper {
+  position: relative;
+  margin: 20px;
+}
+
+.textarea {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  height: 250px;
+  color: $color-secondary;
+  border: none;
+  padding: 5px;
+  transition: all 0.4s;
+  width: 90%;
+  min-width: 325px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background: $color-primary;
+}
+
+.textarea:focus {
+  outline: none;
+  width: 95%;
+  transition: all 0.4s;
+}
+
+
+.textfield {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  height: 60px;
+  color: $color-secondary;
+  border: none;
+  padding: 5px;
+  transition: all 0.4s;
+  width: 40%;
+  min-width: 325px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background: $color-primary;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $color-secondary;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $color-secondary;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $color-secondary;
+}
+
+.textfield:focus {
+  outline: none;
+
+  width: 45%;
+  transition: all 0.4s;
+}
+
+.textfield__message {
+  position: absolute;
+  bottom: -47px;
+  padding: 5px;
+  margin: 0;
+  z-index: 1;
+}
