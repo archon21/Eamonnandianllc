@@ -78,7 +78,7 @@ class Home extends Component {
         <WindoW column video background="background-lightblack">
           <h1 className="headline-1 color-white light">{company}</h1>
         </WindoW>
-        <WindoW
+        {/* <WindoW
           backgroundUrl="https://firebasestorage.googleapis.com/v0/b/gilesnugent-ee4d9.appspot.com/o/backgrounds%2Fartificial-intelligence-blur-close-up-546819.jpg?alt=media&token=51432902-5454-4e86-a680-891ae44495b3"
           column
           justify="justify-start"
@@ -103,7 +103,7 @@ class Home extends Component {
               return <Iterable key={work.name} project={work} />;
             })}
           </Animator>
-        </WindoW>
+        </WindoW> */}
         <WindoW
           backgroundUrl="https://firebasestorage.googleapis.com/v0/b/gilesnugent-ee4d9.appspot.com/o/backgrounds%2Fartificial-intelligence-blur-close-up-546819.jpg?alt=media&token=51432902-5454-4e86-a680-891ae44495b3"
           column
@@ -145,10 +145,10 @@ class Home extends Component {
           >
             <h1 className="headline-4">Eamonn and Ian, LLC</h1>
             <div className="flex row justify-center align-center wrap">
-              <h5 className="headline-5">Stamford, CT</h5>{' '}
+                     <h5 className="headline-5">Stamford, CT</h5>{' '}
               <h5 className="headline-5"> |</h5>
               <h5 className="headline-5">{phone} </h5>
-              <h5 className="headline-5"> |</h5>
+                  <h5 className="headline-5"> |</h5>
               <a
                 rel="noopener noreferrer"
                 target="_blank"

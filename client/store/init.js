@@ -5,6 +5,19 @@ const defaultState = {
 
   works: [
     {
+      status: 'Completed 2019',
+      // tools: ['React', 'Redux', 'SCSS', 'Ytdl', 'Node', 'Firebase Suite'],
+      type: 'IOS Application',
+      img:
+        'https://firebasestorage.googleapis.com/v0/b/gilesnugent-ee4d9.appspot.com/o/app-icons%2Fcard.png?alt=media&token=40bd510b-a015-4923-b8c3-d363e7f768f4',
+      // codeLink: 'https://github.com/archon21/vulpes',
+      // codeLink2: 'https://github.com/archon21/Voteanonymous-Backend',
+      siteLink: 'https://apps.apple.com/us/app/bridge-mentor/id1475410652?ls=1',
+      name: 'Bridge Mentor',
+      desc:
+        'Practice your bridge skills while competing against the computer! Learn optimal bidding and play strategies.'
+    },
+    {
       status: 'Completed 2017',
       // tools: ['React', 'Redux', 'Firebase Suite', 'SCSS'],
       type: 'IOS Application',
@@ -59,19 +72,7 @@ const defaultState = {
     }
   ],
   currentWorks: [
-    {
-      status: 'Coming Soon',
-      // tools: ['React', 'Redux', 'SCSS', 'Ytdl', 'Node', 'Firebase Suite'],
-      type: 'IOS Application',
-      img:
-        'https://firebasestorage.googleapis.com/v0/b/gilesnugent-ee4d9.appspot.com/o/app-icons%2Fcard.png?alt=media&token=40bd510b-a015-4923-b8c3-d363e7f768f4',
-      // codeLink: 'https://github.com/archon21/vulpes',
-      // codeLink2: 'https://github.com/archon21/Voteanonymous-Backend',
-      siteLink: 'img',
-      name: 'Bridge Mentor'
-      // desc:
-      //   'I wanted a way to retrieve audio from Youtube and store files on the cloud and decided to pair that with a browser based audio player.'
-    }
+
   ]
 };
 
